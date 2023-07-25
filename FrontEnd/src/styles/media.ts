@@ -1,5 +1,5 @@
-import { breakpoints } from "styles/theme";
-import { Breakpoints } from "types/theme";
+import { Breakpoints } from "../types/theme";
+import { breakpoints } from "./theme";
 
 type Media = {
   [key in keyof Breakpoints]: {

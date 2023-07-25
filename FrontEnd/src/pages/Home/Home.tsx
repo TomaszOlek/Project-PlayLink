@@ -7,7 +7,11 @@ import { useTranslation, Trans } from "react-i18next";
 import GlobalStyles from "../../styles/global";
 import { Link } from "react-router-dom";
 
-const lngs = {
+const lngs: {
+  [key: string]: {
+    nativeName: string;
+  };
+} = {
   en: { nativeName: "English" },
   pl: { nativeName: "Polski" },
 };
