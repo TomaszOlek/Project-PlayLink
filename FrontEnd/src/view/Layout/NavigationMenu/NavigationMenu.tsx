@@ -105,6 +105,10 @@ const LINKS_DATA = [
   },
   {
     icons: "game-icons:retro-controller",
-    label: "Find Group",
+    label: "Find Players",
+  },
+  {
+    icons: "bi:dpad-fill",
+    label: "Game Sessions",
   },
 ];

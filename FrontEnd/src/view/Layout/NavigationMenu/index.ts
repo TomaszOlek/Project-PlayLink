@@ -34,8 +34,8 @@ export const StyledIcon = styled(Icon)`
 `;
 
 export const IconWraper = styled.div`
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
 `;
 
 export const ImageWraper = styled.div`
