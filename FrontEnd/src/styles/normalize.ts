@@ -114,6 +114,7 @@ export default css`
   img {
     border-style: none;
     max-width: 100%;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -121,7 +122,6 @@ export default css`
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
   }
   svg:not(:root) {
     overflow: hidden;
